@@ -171,7 +171,7 @@ class DocManager(DocManagerBase):
                 yield entry.meta_dict
 
     def commit(self):
-        """Simply passes since we're not using an engine that needs commiting.
+        """Simply passes since we're not using an engine that needs committing.
         """
         pass
 
